@@ -1,0 +1,165 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+/* Caixa de Texto com Efeito Hover */
+.caixa-hover {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.caixa-texto {
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo mais escuro */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.5s ease, visibility 0.5s ease, transform 0.5s ease;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 80%; /* Garantir que ocupe mais espaço */
+    margin: 0 auto; /* Centraliza a caixa */
+}
+
+.caixa-hover:hover .caixa-texto {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Suaviza o efeito */
+}
+
+/* Seção de Introdução */
+.sobre-introducao {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.sobre-introducao h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Seção de Missão */
+.sobre-missao {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.sobre-missao h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Seção de Valores */
+.sobre-valores {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.sobre-valores h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.sobre-valores p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Modo escuro */
+body.dark-mode .sobre-introducao,
+body.dark-mode .sobre-missao,
+body.dark-mode .sobre-valores,
+body.dark-mode footer {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .sobre-introducao h1,
+body.dark-mode .sobre-missao h2,
+body.dark-mode .sobre-valores h2 {
+    color: #fff;
+}
+
+body.dark-mode .caixa-texto {
+    background-color: rgba(255, 255, 255, 0.8); /* Caixa de texto clara no modo escuro */
+}
+
+/* Estilo de Cards de Funcionários */
+.sobre-equipe {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.card-equipe {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.card-equipe img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card-equipe p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
