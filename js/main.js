@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { nome: "Calça Jeans", preco: 99.90, img: "https://rivierawear.com.br/cdn/shop/files/S7818ae00b9084262835f54fff6d61f1fU.jpg?v=1688494129" },
         { nome: "Blusa Moletom", preco: 119.90, img: "https://acdn.mitiendanube.com/stores/004/510/997/products/77b8c59f-f095-497f-9fae-33e4ff1b3c6e1-e1eddb495492cbb30f16445254444536-1024-1024-bb918f7266a1e305bb17126199062637-1024-1024.png" },
         { nome: "Vestido Floral", preco: 79.90, img: "https://a-static.mlcdn.com.br/1500x1500/vestido-florido-festa-exclusivo-gode-gola-v-tendencia-linda-floral-manga-3-4-blogueira-tiktok-casamento-bufante-meimi-amores/franshopmix8/vfloralvd005/ffc7956d964669bd6503286b1eea3c08.jpeg" },
-        { nome: "Carteira Masculina", preco: 39.90, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHmGALZRMaF8kFRE4cK1glvBK4okp7H9jAkw&s" },
+        { nome: "Carteira", preco: 39.90, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHmGALZRMaF8kFRE4cK1glvBK4okp7H9jAkw&s" },
         { nome: "Meia", preco: 29.90, img: "https://anjuss.fbitsstatic.net/img/p/meia-cano-alto-revolution-pto-38-ao-42-71563/262151-3.jpg?w=600&h=600&v=no-value" },
         { nome: "Boné", preco: 49.90, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0wrOIZRKkz2J0SLYq2TXsaRmvk8zX-HEXkA&s" }
     ];
